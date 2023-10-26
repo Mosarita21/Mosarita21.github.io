@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Montserrat Oliva">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Montserrat Oliva | Huskys </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Conoce al  Husky</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <img src="imagenes/huski3.png" alt="Mi Imagen" class="imagen" />
+    <img src="imagenes/huski1.jpeg" alt="Mi Imagen" class="im" />
+
+    <p id="texto1">
+      Esta raza es muy conocida por su buen carácter 
+      y por ser muy cariñosa con la gente, por lo que
+       no son perros guardianes por naturaleza. Les
+        encanta y necesitan estar acompañados y no 
+        deberán quedarse solos durante mucho tiempo,
+         ya que pueden volverse muy destructivos. 
+         Les gusta estar con otros perros bien adiestrados,
+          aunque son cazadores ágiles y eficientes, por lo que
+           deberán adiestrarse con cuidado para que puedan estar
+            en contacto con otros animales domésticos. Aunque no
+             suelen ladrar, sí que aúllan, a veces solo por el simple
+              placer de hacerlo.
+    </p>
+  
+
+    <p id="texto2">
+            La del husky siberiano suele ser una raza sana y resistente.
+             Sin embargo, al igual que muchas otras razas, puede sufrir trastornos
+              oculares hereditarios y, en ocasiones, displasia de cadera (una enfermedad
+               que puede provocar problemas de movilidad). Por tanto, es importante un examen
+                de la cadera y de los ojos antes de dedicar al perro a la crianza.<br>
+                A su vez
+                Esta raza necesita hacer mucho ejercicio, aunque deberá hacerlo en una zona segura
+                 y acotada, o con correa, ya que tienen muchas ganas de correr si se les deja sueltos
+                  y no suelen responder a la llamada de su dueño para volver.   </p>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Galleta.jpg" alt="Foto de Sara">
+        <h1 class="Titulo">Página sobre Huskys</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/huskies.jpeg" alt="HUSkIES">
+      </div>
+    </section>
+
+  <br>
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Los Huskys</h2>
+        <p class="seccion-texto">La raza Husky está íntimamente relacionada a la nieve y a los trineos.
+           Se originó en Siberia, en Rusia, siendo usados como perros de trabajo. Tiene una gran similitud con los lobos.
+           Su tamaño es mediano y pesa cerca de 30 kg. Puede llegar a medir 60 cm de alto. <br>
+           Se dice que el Husky fue criado originalmente por la tribu Chukchi, siendo usado como compañía, 
+           para tirar de los trineos de nieve, pastorear a los ciervos y mantener calientes a los niños. 
+           Es posible hallarlo en todo el mundo.</p>
+      </div>
+    </section>
+    <br>
+<h1 class="Titulo" style="text-align: center;">Razas de Huskys más reconocidas</h1>
+<br>
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Siberiano -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-1-square"></i>
+            <p class="experiencia-titulo">Husky Siberiano</p>
+            <p style="text-align: justify;">Es un perro de tamaño mediano y peso ligero, a pesar de lo que su apariencia pueda suscitar, casi toda la envergadura de un Husky Siberiano es, de hecho, puramente pelaje.Por debajo del punto de congelación, el Husky Siberiano posee un pelaje denso y grueso bien pegado al cuerpo, nunca largo
+               (esta característica conocida como Wooly Husky es una mutación genética negativa)</p>
+               <img src="imagenes/descarga.jpeg" alt="Huskie Siberiano">
+          </div>
+          <!-- Malamute -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-2-square"></i>
+            <p class="experiencia-titulo">Husky Malamute</p>
+            <p style="text-align:justify; ">Esta es una de las razas caninas más antiguas del planeta, pues se sospecha que sus ancestros ya eran 
+              criados por los hombres del Paleolítico. 
+              El nombre proviene de una tribu inuit nómada, denominada "mahlemiut". </p><br><br><br>
+              <img src="imagenes/malamute.webp" alt="Huskie Malamute" width="290" height="188">
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4"><br><br>
+            <i class="bi bi-3-square"></i>
+            <p class="experiencia-titulo">Husky Samoyedo</p>
+            <p style="text-align:justify; ">Se trata de un perro originario de Rusia y Siberia, donde recibió el nombre de una tribu seminómada proveniente de Asia. No obstante, no es un tipo de huksy, sino que es una raza reconocida. En la antigüedad, el samoyedo era utilizado como cazador, 
+              perro guardián y para mantener el calor de las personas durante las noches de invierno. 
+            </p><br>        
+          <br><br>
+          <img src="imagenes/Samo.webp" alt="Huskie Samoyedo" width="290" height="188">
+          <br>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h1 class="Titulo" style="text-align: center;">Galeria de Huskys</h2>
+      <h3 class="seccion-descripcion">Pequeñas fotos de huskys...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+
+          <!-- Husky 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/h1.webp" alt="Husky 1"  >
+              <div class="overlay">
+                <p>Husky 1</p>
+                </div>
+            </div>
+          </div>
+
+          <!-- Husky 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/h2.webp" alt="Husky 2">
+              <div class="overlay">
+                <p>Husky 2</p>
+                </div>
+            </div>
+          </div>
+
+          <!-- Husky 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/h3.webp" alt="Husky 3">
+              <div class="overlay">
+                <p>Husky 3</p>
+                </div>
+            </div>
+          </div>
+
+          <!-- Husky 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/h4.jpg" alt="Husky 4">
+              <div class="overlay">
+                <p>Husky 4</p>
+                </div>
+            </div>
+          </div>
+
+<!-- Husky 5 -->
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="proyecto">
+    <img src="imagenes/h5.jpg" alt="Husky 5">
+    <div class="overlay">
+      <p>Husky 5</p>
+      </div>
+  </div>
+</div>
+
+<!-- Husky 6 -->
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="proyecto">
+    <img src="imagenes/h6.jpeg" alt="Husky 6">
+    <div class="overlay">
+      <p>Husky 6</p>
+      </div>
+  </div>
+</div>
+
+      <a href="https://www.redcanina.es/guia-sobre-la-raza-husky/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Conoce más acerca de los Huskys
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+
+   <!-- Articulos ---->
+    <section class="articulos justify-content-start">
+      <h1 class="Titulo" >Links de algunos Cuidados para Husky</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.expertoanimal.com/cuidado-del-pelo-del-husky-siberiano-20499.html" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             Cuidado de su cabello
+            </li>
+          </a>
+          <a href="https://www.perrospedia.com/alimentos-buenos-para-un-husky-siberiano/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Mejor Alimentación
+            </li>
+          </a>
+        </section>
+        <p id="tes"><b>El aseo es bastante fácil:</b> normalmente basta con peinarlo y cepillarlo bien dos o tres veces a la semana, aunque durante la época de muda
+          deberás cepillarlo a diario. Es una raza muy limpia que tiene muy poco o ningún «olor a perro».</p>
+   
+          <p id="tes2">Aunque tradicionalmente la mayoría de perros son buenos con los niños, todos los perros y niños 
+            necesitan que se les enseñe a llevarse bien y a respetarse mutuamente para estar seguros. Aun así, los perros 
+            y los niños pequeños nunca deberían quedarse solos y los adultos deben supervisar todas las interacciones entre ellos.</p>
+     
+   
+          <pre><marquee direction="left" scrollamount="15" >Adopta... No importa si no es de Raza, "El perrito te lo agradecera"</marquee></pre>
+    
+   
+
+  <!--Sabias que?-->  
+  <h2 class="seccion-titulo">Sabias Qué...</h2>
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Perro apto para dueños con experiencia</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Se requiere un adiestramiento extra</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Le gustan los paseos enérgicos</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Le gusta pasear más de dos horas al día</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Perro mediano</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Babeo mínimo</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Requiere aseo diario</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Raza no hipoalergénica</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Perro expresivo y ladrador</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Perro guardián. Ladra y está alerta</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Puede necesitar entrenamiento para vivir con otras mascotas</li>
+        <li class="list-group-item"><i class="bi bi-check-circle"></i> Puede necesitar entrenamiento para vivir con niños</li>
+      </ul>
+    </div>
+  </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Mi propio testimonio </h2>
+      <h3 class="seccion-descripcion">Imagenes de mi Husky...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/g1.jpg" alt="Foto de Nancy">
+              <p class="testimonio-texto"  style="text-align: justify;">Esta foto es el primer dia que recibí a Galleta, era muy pequeña y quietesita, al inicio jugaba muchisimo con mis perros.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Galleta a sus 2 meses de nacida</p>
+                <p class="cargo">Etapa 1</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/g2.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto" style="text-align: justify;">En esta etapa Galleta ya era muy traviesa, termino con las macetas, además agarro la costumbre
+                de sacar la basura, eso si es muy limpia, no se hace del baño dentro de la casa.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Galleta a sus 7 meses de nacida</p>
+                <p class="cargo">Etapa 2</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/g3.jpg" alt="Foto de Leonardo">
+              <p class="testimonio-texto" style="text-align: justify;">Actualmente Galleta es muy activa y celosa con los demás perros (hay otros 3) Tengo que sacarla
+                por lo emnos una vez a la semana sino comienza a hacer sus desastres desde tirar basura hasta romper las cobijas que le tengo en su casa.<br>
+              Tambien tiene una fuerza increible (ya me ha tumbado 2 veces :c)</p>
+              <div class="testimonio-info">
+                <p class="cliente">Galleta a sus casi 2 años de nacida</p>
+                <p class="cargo">Etapa 3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+     <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para hablar más acerca de los huskys.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="javascript:void(0);" id="openModal">
+              <button type="button">  
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h1  class="Titulo">Donde Vivo...</h1>
+  <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.6432973629294!2d-102.23850672558808!3d21.871290458310348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429f21ef24a68cb%3A0x81a73ac312ee8bd9!2sSoledad%20Garc%C3%ADa%20Mendoza%20228%2C%20Jos%C3%A9%20Guadalupe%20Peralta%20G%C3%A1mez%2C%2020196%20Aguascalientes%2C%20Ags.!5e0!3m2!1ses-419!2smx!4v1694293635975!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="400"></iframe>
+   </center>
+<br><br>
+   <p class="testimonio-texto"><center>Ubicación para pedirme más información hacerca de mi Husky</p></center>
+  <hr>
+ 
+
+
+
+
+  <!-- Modal de Contacto -->
+  <div id="modalContacto" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Contacto</h2>
+      <form id="contactForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Cada nuevo perro que entra en mi vida me regala un pedazo de su corazón. {💗}</p>
+    
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+       <!--
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>-->
+        <a href="https://github.com/Mosarita21" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+       <a href="https://www.linkedin.com/in/sara-montserrat-oliva-roque-988254271/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/mosarita2602/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/saramontserrat.olivaroque" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Montserrat Oliva (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
