@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header.hero {
+   
+    height: 100px;  /* Altura del header */
+    padding: 0;
+    
+
+}
+/* Ajustar tamaño del slider */
+
+.navbar-brand {
+    font-weight: bold;
+    color: #d63384;
+}
+
+
+/* Nuevo estilo para el footer */
+footer {
+    background-color: #6a0dad !important;  /* Morado */
+    color: white !important;
+    padding: 20px 0;
+}
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+
+
+

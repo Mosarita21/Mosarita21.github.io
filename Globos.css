@@ -1,0 +1,25 @@
+
+#balloon-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.balloon {
+    position: absolute;
+    bottom: -150px;
+    border-radius: 50%;
+    width: 50px;
+    height: 70px;
+    background-color: #FF5733; /* Color de globo */
+    animation: float 10s infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        transform: translateX(100px) translateY(-100vh);
+    }
+}
